@@ -1,0 +1,17 @@
+<script>
+  export let showForm;
+</script>
+
+<style>
+
+</style>
+
+<nav class="nav">
+  <div class="nav-center">
+    <h1 class="nav-title">Budget calculator</h1>
+    <button type="button" class="nav-btn" on:click={showForm}>
+      <i class="far fa-plus-square" />
+      Add item
+    </button>
+  </div>
+</nav>
